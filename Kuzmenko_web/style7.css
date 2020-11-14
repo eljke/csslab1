@@ -1,0 +1,47 @@
+.container{
+    width: 450px;
+    height: 530px;
+    background-color:#fb364a;
+    margin: 250px auto 0 auto;
+    text-align: center;
+    border: 10px #4a4a4a solid;
+    
+}
+h1{
+    color:white;
+    height: 15px;
+    font-size: 50px;
+}
+h2{
+    color: white;
+    font-size: 15px;  
+}
+input[type="text"], input[type="email"], select[type="select"] {
+    width:430px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    background-color: #cb2a3d;
+    color: white;
+    text-decoration-color: white;
+    border-color: #fb364a; 
+    padding-left: 10px;
+}
+	textarea{
+    width:430px;
+    height: 120px;
+    font-size: 12px;
+    margin-bottom: -6px;
+    background-color: #cb2a3d;
+    color: white;
+    text-decoration-color: white;
+    border-color: #fb364a; 
+    padding-left: 10px;
+	resize: none;
+}
+button{
+    font-weight: 700;
+    color: red;
+    width: 430px;
+    height: 50px;
+}

@@ -1,0 +1,33 @@
+h1{
+		font-size: 30px;
+		font-weight: 800;
+		color: #0b0526;
+		}
+		
+		h2{
+		font-size: 20px;
+		font-weight: 600;
+		}
+		
+		p{
+		color: #2e2e30;
+		font-family: Times New Roman;
+		font-size: 20px;
+		}
+		
+		a{
+		font-family: Arial;
+		font-size: 18px;
+		color: black;
+		}
+		
+		a:visited{
+		color: #7d0101;
+		}
+		
+		a:hover{
+		font-family: Arial;
+		font-size: 18px;
+		color: green;
+		}
+		

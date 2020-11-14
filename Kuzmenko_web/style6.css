@@ -1,0 +1,11 @@
+button {
+ color: white; background-color: gray; font-style: italic;
+ }
+ #hint {
+width: 100px;
+font-size: 20px;
+text-align: center;
+}
+input:checked + #box1 {
+background: cyan;
+}
