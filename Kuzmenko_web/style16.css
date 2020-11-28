@@ -1,0 +1,85 @@
+body {
+    font: 18px sans-serif;
+}
+
+.new_form h2, .new_form label {
+    font-family: "Times New Roman", serif;
+}
+
+.new_form ul {
+    width:750px;
+    margin: 0;
+    padding: 0;
+}
+.new_form li {
+    padding:12px;
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+
+.new_form li:first-child, .new_form li:last-child {
+    border-bottom:1px solid #777;
+}
+
+.new_form label {
+    width:150px;
+    margin-top: 3px;
+    float:left;
+    padding:3px;
+}
+.new_form input {
+    height:20px;
+    width:220px;
+    padding:5px 8px;
+}
+.new_form textarea {
+    padding:8px;
+    width:300px;
+}
+
+.new_form button {
+    margin-left:156px;
+}
+
+.new_form input, .new_form textarea {
+    border:1px solid #aaa;
+    box-shadow: 0 10px 15px #eee inset;
+    border-radius:2px;
+    padding-right:30px;
+}
+
+.new_form input:focus, .new_form textarea:focus {
+    background: #fff;
+    border:1px solid #555;
+    padding-right:70px;
+}
+
+.new_form input:required, .new_form textarea:required {
+    background: #fff url(img/reqstar.png) no-repeat 98%;
+}
+
+.new_form input:required:valid, .new_form textarea:required:valid {
+    background: #fff url(img/right.png) no-repeat 98%;
+    border-color: #28921f;
+}
+.new_form input:focus:invalid, .new_form textarea:focus:invalid {
+    background: #fff url(img/wrong.png) no-repeat 98%;
+    border-color: #b03535
+}
+
+button.submit {
+    background-color: #68b12f;
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+}
+button.submit:hover {
+    opacity: 0.8;
+}
+button.submit:active {
+    border: 1px solid #20911e;
+}
