@@ -1,16 +1,18 @@
-	p{
-				width: 50px;
-				height: 50px;
-				border: 1px solid;
-				border-color: red;
-				}
-				#kv2{
-				margin-left: 65px;
-				margin-top: -68px;
-				border-color: blue;
-				}
-				#kv3{
-				margin-left: 130px;
-				margin-top: -68px;
-				border-color: green;
-				}
+div{
+		width: 50px;
+		height: 50px;
+		border: 1px solid;
+		border-color: red;
+		margin-left : 10px;
+		}
+		#kv1{
+			display : inline-block;
+		}
+		#kv2{
+		display : inline-block;
+		border-color: blue;
+		}
+		#kv3{
+		display : inline-block;
+		border-color: green;
+		}
